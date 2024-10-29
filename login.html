@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presta Garantia</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+        
+    <div class="container">
+
+        <div class="container-form">
+            <form class="sign-in">
+                <h2>Iniciar Sesión</h2>             
+                <span>Ingrese Usuario y Contraseña</span>
+                <div class="container-input">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" placeholder="Usuario" required>
+                </div>
+                <div class="container-input">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" placeholder="Contraseña" required>
+                </div>
+                <div>
+                    <img src="/captcha.JPG" alt="">
+                </div>
+                <span>Introduzca los Caracteres</span>
+                <div class="container-input">
+                    <ion-icon name="shield-checkmark-outline"></ion-icon>
+                    <input type="text" placeholder="Ingrese el Captcha" required>
+                </div>                               
+                <button class="button">INGRESAR</button>
+            </form>
+        </div>
+
+        <div class="container-form">
+            <form class="sign-up">
+                <h2>Recuperar Contraseña</h2>
+                <span>Ingrese su Correo Electrónico</span>
+                <div class="container-input">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="text" placeholder="Correo Electrónico o Número de Celular" required>
+                </div>
+                <button class="button" >ENVIAR</button>
+            </form>
+        </div>
+
+        <div class="container-welcome">
+            <div class="welcome-sign-up welcome">
+                <h2>PRESTA GARANTIA</h2>
+                <p>¡Bienvenidos!</p>
+                <button class="button" id="btn-sign-up">Recupera tu Contraseña</button>
+            </div>
+            <div class="welcome-sign-in welcome">
+                <p>"Dinero que necesitas, cuando lo necesitas"</p>
+                <button class="button" id="btn-sign-in">Volver Inicio</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="/script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
